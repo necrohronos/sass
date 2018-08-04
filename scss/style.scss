@@ -1,0 +1,74 @@
+@import "zmienne";
+body {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    background: $white;
+    background: -moz-$gradient;
+background: -webkit-$gradient;
+background: -o-$gradient;
+background: -ms-$gradient;
+background: $gradient;
+}
+header {
+    background: $akcent url(../img/header.jpg) no-repeat fixed;
+    background-size: cover;
+    height: 70vh;
+    #bob {
+      color: $white;
+    position: absolute;
+    margin: 20vh auto 0;
+    right: 10px;  
+    }
+}
+
+.nav-scrolled {
+        background-color: $akcent;
+        a:hover {
+            color: $white;
+        }
+    }
+
+section {
+    background: $white;
+}
+#portfolio { 
+    .p-image1 {
+    background-image: url(../img/288.png);
+}
+.p-image2 {
+    background-image: url(../img/huf.png);
+}
+.p-image3 {
+    background-image: url(../img/wsj19.png);
+}
+    .port-image {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+        position: relative; 
+    .port-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: white;
+    opacity: 0;
+    transition: 1s;
+   @include flex-center;
+        
+        a {
+            color: $white;
+            transition: 1s;
+            &:hover {
+                color: $akcent;
+            }
+        }
+        &hover {
+            opacity: 1;
+        }}}}
+footer {
+     background-color: rgba(0, 0, 0, 0.86);
+    color: $white;
+    line-height: 50px;
+}

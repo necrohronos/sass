@@ -1,0 +1,15 @@
+$akcent: #6b8f24;
+$white: #ffffff;
+$gradient: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 40%, rgba(209,209,209,1) 77%, rgba(254,254,254,1) 100%);
+@mixin flex-center {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+@mixin fullPage {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,69 @@
+body {
+  font-family: 'Roboto', serif;
+  margin: 0;
+  background: #ffffff;
+  background: -moz- linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 40%, #d1d1d1 77%, #fefefe 100%);
+  background: -webkit- linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 40%, #d1d1d1 77%, #fefefe 100%);
+  background: -o- linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 40%, #d1d1d1 77%, #fefefe 100%);
+  background: -ms- linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 40%, #d1d1d1 77%, #fefefe 100%);
+  background: linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 40%, #d1d1d1 77%, #fefefe 100%); }
+
+header {
+  background: #6b8f24 url(../img/header.jpg) no-repeat fixed;
+  background-size: cover;
+  height: 70vh; }
+  header #bob {
+    color: #ffffff;
+    position: absolute;
+    margin: 20vh auto 0;
+    right: 10px; }
+
+.nav-scrolled {
+  background-color: #6b8f24; }
+  .nav-scrolled a:hover {
+    color: #ffffff; }
+
+section {
+  background: #ffffff; }
+
+#portfolio .p-image1 {
+  background-image: url(../img/288.png); }
+
+#portfolio .p-image2 {
+  background-image: url(../img/huf.png); }
+
+#portfolio .p-image3 {
+  background-image: url(../img/wsj19.png); }
+
+#portfolio .port-image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  #portfolio .port-image .port-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center; }
+    #portfolio .port-image .port-mask a {
+      color: #ffffff;
+      transition: 1s; }
+      #portfolio .port-image .port-mask a:hover {
+        color: #6b8f24; }
+    #portfolio .port-image .port-maskhover {
+      opacity: 1; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.86);
+  color: #ffffff;
+  line-height: 50px; }
